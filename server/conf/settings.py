@@ -72,3 +72,6 @@ MAX_NR_SIMULTANEOUS_PUPPETS = 2
 # an account can have (not how many you can puppet at the same time). Set to
 # None for no limit.
 MAX_NR_CHARACTERS = 5
+
+# Modules that contain prototypes for use with the spawner mechanism.
+PROTOTYPE_MODULES = ["world.prototypes", "world.prototypes_weapons"]

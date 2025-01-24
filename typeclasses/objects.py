@@ -173,3 +173,9 @@ class Object(ObjectParent, DefaultObject):
     """
 
     pass
+
+
+class Furniture(DefaultObject):
+    # this defines what 'furniture' is, like
+    # storing who sits on it or something.
+    pass

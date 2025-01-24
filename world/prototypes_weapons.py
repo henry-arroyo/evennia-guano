@@ -1,5 +1,5 @@
 """
-Prototypes
+Prototypes (weapons)
 
 A prototype is a simple way to create individualized instances of a
 given typeclass. It is dictionary with specific key names.
@@ -88,3 +88,26 @@ See the `spawn` command and `evennia.prototypes.spawner.spawn` for more info.
 # "key": "goblin archwizard",
 # "prototype_parent" : ("GOBLIN_WIZARD", "ARCHWIZARD_MIXIN")
 # }
+
+SWORD = {
+    "key": "Sword",
+    "prototype_desc": "Weapon prototype for combat",
+    "desc": "Traditional sword, with a standard grip and blade. It has a double-edged blade with a sharp point.",
+    "dmg": "10",
+    "magic": "0",
+    "value": 100,
+    "tags": [("weapon", "magical", "sword")],
+    "aliases": ["sword"]
+}
+
+SWORD_OF_FURY = {
+    "key": "Sword of Fury",
+    "prototype_desc": "Weapon prototype for combat",
+    "desc": "This sword is so blindingly bright that you're unsure of what color it actually is. Its handle looks to be made of some kind of metal.",
+    "dmg": "250",
+    "magic": "15",
+    "value": 38500,
+    "tags": [("weapon", "magical", "sword")],
+    "aliases": ["sword"]
+}
+
